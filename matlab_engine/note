@@ -1,0 +1,5 @@
+# place the settings file 'stl.vim' under the syntax path
+# https://www.vim.org/scripts/script.php?script_id=2224
+
+mkdir -p ~/.vim/after/syntax/cpp 
+cp stl.vim ~/.vim/after/syntax/cpp/
